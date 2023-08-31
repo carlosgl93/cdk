@@ -23,8 +23,8 @@ jobs:
         with:
           node-version: 14
 
-      - name: Update npm
-        uses: npm i -g npm@latest
+      - name: update npm
+        run: npm i -g npm@latest
 
       - name: Install Dependencies
         uses: npm ci
