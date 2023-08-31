@@ -27,7 +27,7 @@ jobs:
         run: npm i -g npm@latest
 
       - name: Install Dependencies
-        uses: npm ci
+        run: npm ci
 
       - name: Build CDK Stack
         run: npm run build
