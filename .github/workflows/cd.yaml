@@ -21,6 +21,9 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v3
 
+      - name: Update npm
+        uses: npm i -g npm@latest
+
       - name: Install Dependencies
         uses: npm ci
 
